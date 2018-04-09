@@ -28,7 +28,9 @@ module.exports = (value,exp) => {
       value = entero + '.' + decimal;
       return value;
     } else {
-      //redondeamos el entero
+      //aqui redondeamos la parte entera
+      //debido a que se trabaja con divisas
+      //no se implementa este codigo
     }
   }
 }

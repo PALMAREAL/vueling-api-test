@@ -19,23 +19,25 @@ const config = {
     skuProcessing: "Procesando SKU...",
     skuProcessed: "SKU procesado"
   },
-  getRatesOpts: {
-    url: 'http://quiet-stone-2094.herokuapp.com/rates.json',
-    method: 'GET',
-    headers: {
-      'Accept': 'application/json',
-      'Accept-Charset': 'utf-8'
+  getOpts: {
+    rates: {
+      url: 'http://quiet-stone-2094.herokuapp.com/rates.json',
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Accept-Charset': 'utf-8'
+      },
+      timeout: 1500
     },
-    timeout: 1500
-  },
-  getTransOpts: {
-    url: 'http://quiet-stone-2094.herokuapp.com/transactions.json',
-    method: 'GET',
-    headers: {
-      'Accept': 'application/json',
-      'Accept-Charset': 'utf-8'
-    },
-    timeout: 1500
+    transactions: {
+      url: 'http://quiet-stone-2094.herokuapp.com/transactions.json',
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Accept-Charset': 'utf-8'
+      },
+      timeout: 1500
+    }
   },
   storOptions: {
     dir: 'persist',

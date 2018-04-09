@@ -4,6 +4,4 @@ const express   = require('express'),
 
 require('./appConfig')(app);
 require('./server')(app);
-require('./api/getRates')(app,storage);
-require('./api/getTransactions')(app,storage);
-require('./api/getSKU')(app,storage);
+require('./routes')(app,storage);

@@ -1,5 +1,5 @@
 module.exports = (fromCurrency,toCurrency,amount,rates) => {
-  let monto = convertAmount(fromCurrency,toCurrency,amount,rates);
+  let monto = convertAmount(fromCurrency,toCurrency,amount,rates)
   return monto;
 }
 

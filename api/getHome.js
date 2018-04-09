@@ -1,5 +1,5 @@
 const procRequest = require('./procRequest');
-const clave = 'rates';
+let clave = 'transactions';
 
 module.exports = (req,res,app,storage) => {
   procRequest(req,res,app,storage,clave);
