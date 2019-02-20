@@ -83,10 +83,10 @@ Además necesitamos un plan B en caso que el webservice del que obtenemos la inf
  
  ## **Instalación**
  
-    Después de descargar o clonar el repositorio, situarse sobre la carpeta descargada y ejecutar `npm install`
+ Después de descargar o clonar el repositorio, situarse sobre la carpeta descargada y ejecutar `npm install`
      
  ## **Uso**
  
-    Puede probar la API ejecutando `npm run dev` desde el terminal.
+ Puede probar la API ejecutando `npm run dev` desde el terminal.
      
  
