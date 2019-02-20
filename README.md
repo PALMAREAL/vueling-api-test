@@ -80,3 +80,13 @@ Además necesitamos un plan B en caso que el webservice del que obtenemos la inf
     Después de cada conversión, el resultado debe ser redondeado a dos decimales usando el redondeo Banker's Rounding (http://en.wikipedia.org/wiki/Rounding#Round_half_to_even)
 
  **Por favor, el comentario del commit final ha de ser "Finished", para informarnos de que se ha finalizado la prueba.**
+ 
+ ## **Instalación**
+ 
+     Después de descargar o clonar el repositorio, situarse sobre la carpeta descargada y ejecutar `npm intall`
+     
+ ##**Uso**
+ 
+     Puede probar la API ejecutando `npm run dev` desde el terminal.
+     
+ 
